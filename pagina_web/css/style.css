@@ -44,34 +44,35 @@ html, body{
     font-weight: 600;	
 }
 .banner{
-    background: url(../imagenes/destinos.jpg) no-repeat 0px 0px;
+    background: url(../imagenes/destinos2.jpg) no-repeat  0px 0px;
     background-size: cover;
-}
+ }
 .banner-grids{
     margin-top: 9em;
 }
 .banner-left {
-  background: url(../imagenes/logo.ico) no-repeat 0px 0px;
+  background: url(../imagenes/tienda.jpg) no-repeat 0px 0px;
     float: left;
     width: 32%;
     padding: 7.6em 0;
     /*background: #FFF;*/
     text-align: center;
     position: relative;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .banner-logo {
-    -webkit-transform: rotate(315deg);
-    -moz-transform: rotate(315deg);
-    -ms-transform: rotate(315deg);
-    -o-transform: rotate(315deg);
-    transform: rotate(315deg);
+    -webkit-transform: rotate(100deg);
+    -moz-transform: rotate(10 0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .banner-left h1{
+    font-color: #EEEEEE;
     font-size: 7em;
     font-family: 'Dorsa-Regular';
     line-height: .8em;
@@ -589,7 +590,7 @@ ul.dropdown-menu {
 	background:none;
 }
 .welcome-bottom-right{
-    background: url(../images/4.jpg) no-repeat 0px 0px;
+    background: url(../imagenes/destinos.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 584px;
 }
@@ -716,19 +717,19 @@ ul.dropdown-menu {
     margin: 0 2.5em;
 }
 .footer-icons  ul li a.twitter {
-    background: url(../images/icons.png) no-repeat 0px 0px;
+    background: url(../imagenes/icons.png) no-repeat 0px 0px;
     width: 80px;
     height: 80px;
     display: block;
 }
 .footer-icons  ul li a.facebook {
-    background: url(../images/icons.png) no-repeat -80px 0px;
+    background: url(../imagenes/icons.png) no-repeat -80px 0px;
     width: 80px;
     height: 80px;
     display: block;
 }
 .footer-icons  ul li a.chrome {
-    background: url(../images/icons.png) no-repeat -160px 0px;
+    background: url(../imagenes/icons.png) no-repeat -160px 0px;
     width: 80px;
     height: 80px;
     display: block;
@@ -932,19 +933,19 @@ ul.dropdown-menu {
     margin: 0 .2em;
 }
 .icons ul li a.twitter {
-    background: url(../images/social.png) no-repeat 0px 0px;
+    background: url(../imagenes/social.png) no-repeat 0px 0px;
     width: 30px;
     height: 30px;
     display: block;
 }
 .icons ul li a.facebook {
-    background: url(../images/social.png) no-repeat -30px 0px;
+    background: url(../imagenes/social.png) no-repeat -30px 0px;
 }
 .icons ul li a.chrome {
-    background: url(../images/social.png) no-repeat -60px 0px;
+    background: url(../imagenes/social.png) no-repeat -60px 0px;
 }
 .icons ul li a.dribbble {
-    background: url(../images/social.png) no-repeat -90px 0px;
+    background: url(../imagenes/social.png) no-repeat -90px 0px;
 }
 .icons ul li a.twitter:hover {
     opacity: .5;
@@ -2563,4 +2564,39 @@ ul.pagination {
 	.mail-grids {
 		margin: 2em 0;
 	}
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
 }
